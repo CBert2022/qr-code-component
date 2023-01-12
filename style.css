@@ -3,6 +3,7 @@ body {
 }
 
 #container {
+    position: absolute;
     width: 320px;
     height: 497px;
     left: 560px;
@@ -47,4 +48,17 @@ p {
     font-family: 'Outfit';
     font-style: normal;
     font-size: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    #container {
+        position: absolute;
+        width: 320px;
+        height: 497px;
+        left: 28px;
+        top: 85px;
+        background-color: white;
+        box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.0476518);
+        border-radius: 20px;
+    }
 }
